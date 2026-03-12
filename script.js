@@ -1,4 +1,4 @@
-// getting speech using js
+// getting speech using js...
 let speech = new SpeechSynthesisUtterance();
 
 // voices array
