@@ -1,7 +1,7 @@
 // getting speech using js...
 let speech = new SpeechSynthesisUtterance();
 
-// voices array
+// voices array...
 let voices = [];
 
 // voice select
