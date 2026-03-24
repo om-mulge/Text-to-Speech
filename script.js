@@ -1,13 +1,13 @@
 // getting speech using js...
 let speech = new SpeechSynthesisUtterance();
 
-// voices array...
+// voices array
 let voices = [];
 
 // voice select
 let voiceSelect = document.querySelector("select");
 
-// changing voices
+// changing voices...
 window.speechSynthesis.onvoiceschanged = () => {
     voices = window.speechSynthesis.getVoices();
     // default voice index 0
